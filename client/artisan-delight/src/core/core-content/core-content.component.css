@@ -1,0 +1,9 @@
+:host {
+  display: flex;
+  flex-grow: 1;
+  background-color: beige;
+}
+.body-style {
+  padding: 20px;
+  flex-grow: 1;
+}

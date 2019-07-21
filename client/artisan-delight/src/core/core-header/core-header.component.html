@@ -1,0 +1,16 @@
+<div *screenBelowLarge class="title-bar-small">
+  <span class="fas fa-bars"
+    (click)="menuService.toggleLeftSideMenu()">
+  </span>
+  <div class="small-image-holder">
+      <img class="small-image" src="">
+  </div>
+  <span class="fas fa-ellipsis-v"></span>
+</div>
+
+<div *screenLarge class="title-bar user-title-bar">
+  <img src="../../assets/images/logo.JPG" alt="header-logo">
+  <div class="menu-area">
+    <base-menu *ngIf="!menuService.isVertical"></base-menu>
+  </div>
+</div>
