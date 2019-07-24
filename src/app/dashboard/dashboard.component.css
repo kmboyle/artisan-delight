@@ -1,0 +1,7 @@
+.dash-photos {
+  display: flex;
+  flex-wrap: wrap;
+}
+.dash-photos img {
+  margin: 1em;
+}
